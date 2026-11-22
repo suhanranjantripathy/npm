@@ -5,7 +5,7 @@
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "autocommit": "./bin/autocommit.js"
+    "autocommit": "bin/autocommit.js"
   },
   "files": [
     "bin",
