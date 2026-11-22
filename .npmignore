@@ -1,0 +1,9 @@
+tests/
+.autocommit/
+coverage/
+.github/
+*.patch
+*.bak
+.DS_Store
+.env*
+vitest.config.*

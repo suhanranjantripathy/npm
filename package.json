@@ -1,0 +1,48 @@
+{
+  "name": "autocommit",
+  "version": "1.0.0",
+  "description": "Intelligent Git automation and progress-protection CLI tool",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "autocommit": "./bin/autocommit.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "node bin/autocommit.js"
+  },
+  "keywords": [
+    "git",
+    "autocommit",
+    "commit",
+    "conventional-commits",
+    "checkpoint",
+    "recovery",
+    "cli",
+    "developer-tools"
+  ],
+  "author": "AutoCommit Maintainers",
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^7.3.2",
+    "chalk": "^5.4.1",
+    "chokidar": "^4.0.3",
+    "commander": "^13.1.0",
+    "ignore": "^7.0.3",
+    "ora": "^8.2.0",
+    "simple-git": "^3.27.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.7"
+  }
+}
