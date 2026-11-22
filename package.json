@@ -1,5 +1,5 @@
 {
-  "name": "autocommit",
+  "name": "@tsuhanranjan/autocommit",
   "version": "1.0.0",
   "description": "Intelligent Git automation and progress-protection CLI tool",
   "type": "module",

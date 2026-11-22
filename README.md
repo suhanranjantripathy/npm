@@ -27,13 +27,13 @@ AutoCommit provides two core capabilities:
 Run directly with `npx`:
 
 ```bash
-npx autocommit
+npx @tsuhanranjan/autocommit
 ```
 
 Or install globally:
 
 ```bash
-npm install -g autocommit
+npm install -g @tsuhanranjan/autocommit
 ```
 
 ---
